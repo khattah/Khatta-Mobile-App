@@ -1,0 +1,224 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jt_trading.khattah"
+4    android:versionCode="9"
+5    android:versionName="1.0.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="32" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:33:5-66
+14-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:33:22-64
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <queries>
+22-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:11:5-31:15
+23
+24        <!-- If your app opens https URLs -->
+25        <intent>
+25-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:13:9-16:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:14:13-65
+26-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:14:21-62
+27
+28            <data android:scheme="https" />
+28-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:15:13-44
+28-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:15:19-41
+29        </intent>
+30        <intent>
+30-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:13:9-16:18
+31            <action android:name="android.intent.action.VIEW" />
+31-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:14:13-65
+31-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:14:21-62
+32
+33            <data android:scheme="http" />
+33-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:15:13-44
+33-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:15:19-41
+34        </intent>
+35        <!-- If your app makes calls -->
+36        <intent>
+36-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:13:9-16:18
+37            <action android:name="android.intent.action.DIAL" />
+38
+39            <data android:scheme="tel" />
+39-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:15:13-44
+39-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:15:19-41
+40        </intent>
+41        <!-- If your app emails -->
+42        <intent>
+42-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:13:9-16:18
+43            <action android:name="android.intent.action.SEND" />
+44
+45            <data android:mimeType="*/*" />
+45-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:15:13-44
+46        </intent>
+47    </queries>
+48
+49    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+49-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:34:5-79
+49-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:34:22-76
+50    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+50-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+50-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+51    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+51-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+51-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+52    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+52-->[:connectivity] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-76
+52-->[:connectivity] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/connectivity/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-73
+53
+54    <application
+54-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:35:5-85:19
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.3.1] /Users/t.muller25/.gradle/caches/transforms-2/files-2.1/0e161faa48b63a422f783b4d98dddfd1/core-1.3.1/AndroidManifest.xml:24:18-86
+56        android:debuggable="true"
+57        android:exported="true"
+57-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:37:9-32
+58        android:icon="@mipmap/ic_launcher"
+58-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:38:9-43
+59        android:usesCleartextTraffic="true" >
+59-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:36:9-44
+60        <activity
+60-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:39:9-75:20
+61            android:name="com.jt_trading.khattah.MainActivity"
+61-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:40:13-41
+62            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+62-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:45:13-163
+63            android:exported="true"
+63-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:41:13-36
+64            android:hardwareAccelerated="true"
+64-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:46:13-47
+65            android:label="@string/app_name"
+65-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:43:13-45
+66            android:launchMode="singleTop"
+66-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:42:13-43
+67            android:theme="@style/LaunchTheme"
+67-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:44:13-47
+68            android:windowSoftInputMode="adjustResize" >
+68-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:47:13-55
+69
+70            <!--
+71                 Specifies an Android theme to apply to this Activity as soon as
+72                 the Android process has started. This theme is visible to the user
+73                 while the Flutter UI initializes. After that, this theme continues
+74                 to determine the Window background behind the Flutter UI.
+75            -->
+76
+77            <intent-filter>
+77-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:53:13-56:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:54:17-68
+78-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:54:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:55:17-76
+80-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:55:27-74
+81            </intent-filter>
+82
+83            <!-- App Links -->
+84            <intent-filter android:autoVerify="true" >
+84-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:59:13-68:29
+84-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:59:28-53
+85                <action android:name="android.intent.action.VIEW" />
+85-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:14:13-65
+85-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:14:21-62
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:61:17-76
+87-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:61:27-73
+88                <category android:name="android.intent.category.BROWSABLE" />
+88-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:62:17-78
+88-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:62:27-75
+89                <!-- Accepts URIs that begin with https://YOUR_HOST -->
+90                <data
+90-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:15:13-44
+91                    android:host="khattah.com"
+92                    android:pathPrefix="/package/invitation"
+93                    android:scheme="https" />
+93-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:15:19-41
+94            </intent-filter>
+95            <intent-filter>
+95-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:69:13-72:29
+96                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+96-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:70:17-69
+96-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:70:25-66
+97
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:61:17-76
+98-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:61:27-73
+99            </intent-filter>
+100        </activity>
+101        <!--
+102             Don't delete the meta-data below. https://khata.com/share/package_invitation
+103             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+104        -->
+105        <meta-data
+105-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:78:9-80:70
+106            android:name="com.google.firebase.messaging.default_notification_channel_id"
+106-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:79:13-89
+107            android:value="@string/default_notification_channel_id" />
+107-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:80:13-68
+108        <meta-data
+108-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:82:9-84:33
+109            android:name="flutterEmbedding"
+109-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:83:13-44
+110            android:value="2" />
+110-->/Users/t.muller25/Documents/flutter_projects/jt_trading/android/app/src/main/AndroidManifest.xml:84:13-30
+111
+112        <provider
+112-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+113            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+113-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+114            android:authorities="com.jt_trading.khattah.flutter.image_provider"
+114-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+115            android:exported="false"
+115-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+116            android:grantUriPermissions="true" >
+116-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+117            <meta-data
+117-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+118                android:name="android.support.FILE_PROVIDER_PATHS"
+118-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+119                android:resource="@xml/flutter_image_picker_file_paths" />
+119-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+120        </provider>
+121
+122        <activity
+122-->[:url_launcher] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+123            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+123-->[:url_launcher] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+124            android:exported="false"
+124-->[:url_launcher] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+125            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+125-->[:url_launcher] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+126
+127        <provider
+127-->[:share] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+128            android:name="io.flutter.plugins.share.ShareFileProvider"
+128-->[:share] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-70
+129            android:authorities="com.jt_trading.khattah.flutter.share_provider"
+129-->[:share] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+130            android:exported="false"
+130-->[:share] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+131            android:grantUriPermissions="true" >
+131-->[:share] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+132            <meta-data
+132-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+133                android:name="android.support.FILE_PROVIDER_PATHS"
+133-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+134                android:resource="@xml/flutter_share_file_paths" />
+134-->[:image_picker] /Users/t.muller25/Documents/flutter_projects/jt_trading/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+135        </provider>
+136    </application>
+137
+138</manifest>

@@ -1,0 +1,4 @@
+#Sat Aug 27 11:04:10 AST 2022
+base.0=/Users/t.muller25/Documents/flutter_projects/jt_trading/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

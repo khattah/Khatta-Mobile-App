@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665969615614",
+    "project_id": "khata-41839",
+    "storage_bucket": "khata-41839.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665969615614:android:fb399440941ce05551fbaf",
+        "android_client_info": {
+          "package_name": "com.jt_trading.khattah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665969615614-oc55npj0279891k7c2s82skvg5fh00ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX_TnW8SdW6k2Q82PpXv1eXwz7Z3WPyPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665969615614-oc55npj0279891k7c2s82skvg5fh00ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

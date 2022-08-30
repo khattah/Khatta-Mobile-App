@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/jt_trading/khattah/BuildConfig.java
+ com.jt_trading.khattah.BuildConfig

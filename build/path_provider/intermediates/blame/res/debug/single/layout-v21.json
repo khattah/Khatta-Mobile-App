@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/t.muller25/Documents/flutter_projects/jt_trading/build/path_provider/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/t.muller25/.gradle/caches/transforms-2/files-2.1/1c1d97990e0538787ca3483c50e3a9f3/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/t.muller25/Documents/flutter_projects/jt_trading/build/path_provider/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/t.muller25/.gradle/caches/transforms-2/files-2.1/1c1d97990e0538787ca3483c50e3a9f3/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/t.muller25/Documents/flutter_projects/jt_trading/build/path_provider/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/t.muller25/.gradle/caches/transforms-2/files-2.1/1c1d97990e0538787ca3483c50e3a9f3/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/t.muller25/Documents/flutter_projects/jt_trading/build/path_provider/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/t.muller25/.gradle/caches/transforms-2/files-2.1/1c1d97990e0538787ca3483c50e3a9f3/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

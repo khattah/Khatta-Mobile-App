@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.jt_trading.khattah",
+    "sha256_cert_fingerprints":
+    ["8F:53:96:7A:B7:EF:90:36:93:8E:22:D7:5A:20:13:2F:E1:5A:FC:50:45:23:3B:5D:D8:12:CD:CE:1C:75:B3:F9"]
+  }
+}]

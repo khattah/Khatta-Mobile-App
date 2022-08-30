@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.jt_trading.khattah",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 9,
+        "versionName": "1.0.6",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.jt_trading.khattah",
+        "split": "",
+        "minSdkVersion": "16"
+      }
+    }
+  ]
+}
